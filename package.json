@@ -1,0 +1,19 @@
+{
+  "name": "go_database_sql_tutorial",
+  "version": "1.0.0",
+  "description": "Go database/sql 指南",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "Go database/sql 指南"
+  ],
+  "author": "github.com/meilihao",
+  "license": "CC BY-SA 4.0",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.2",
+    "@vuepress/plugin-google-analytics": "^1.0.2",
+    "vuepress": "^1.0.2"
+  }
+}

@@ -1,7 +1,6 @@
 ---
 title: 导入数据库驱动
 type: tutorial
-order: 3
 ---
 
 为了使用`database/sql`,你不仅需要这个package本身,还需要针对特定数据库的驱动.

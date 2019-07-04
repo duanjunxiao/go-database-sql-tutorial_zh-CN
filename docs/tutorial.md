@@ -1,7 +1,6 @@
 ---
 title: 介绍
 type: tutorial
-order: 1
 ---
 
 Go通常使用[database/sql package](http://golang.org/pkg/database/sql/)去操作SQL或类SQL数据库.它为基于行导向的数据库即传统关系数据库(RDBMS)提供了轻量级的接口.本网站罗列了其大部分的用法.
