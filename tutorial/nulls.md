@@ -1,4 +1,8 @@
-# 使用Null
+---
+title: 使用Null
+type: tutorial
+order: 9
+---
 
 可空类型列是恼人的,它会导致代码变得丑陋.如果可以,你应该尽量避免.如果不行,那你应该使用`database/sql`中定义的特殊类型或自定义类型来处理.
 
@@ -7,7 +11,7 @@ bool,string,integers(数值),floats(浮点数)类型都有对应的空类型.下
 ```go
 for rows.Next() {
 	var s sql.NullString
-	err := rows.Scan(&s)
+	err := rows.Scan(&amp;s)
 	// check err
 	if s.Valid {
 	   // use s.String
@@ -31,7 +35,7 @@ for rows.Next() {
 rows, err := db.Query(`
 	SELECT
 		name,
-		COALESCE(other_field, '') as other_field
+		COALESCE(other_field, '') as otherField
 	WHERE id = ?
 `, 42)
 

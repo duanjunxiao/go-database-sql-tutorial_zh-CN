@@ -1,7 +1,7 @@
 # Go database/sql 指南
 
 - [原文](http://go-database-sql.org)
-- [git-origin#1ec3d97  on 17 Mar 2016](https://github.com/VividCortex/go-database-sql-tutorial)
+- [git-origin#ccce84f  on 7 Mar 2019](https://github.com/VividCortex/go-database-sql-tutorial)
 
 ## 运行
 ```sh

@@ -1,4 +1,8 @@
-# 获取结果集
+---
+title: 获取结果集
+type: tutorial
+order: 5
+---
 
 有几种常用的操作来从数据库中获取结果集:
 
@@ -114,6 +118,7 @@ stmt, err := db.Prepare("select name from users where id = ?")
 if err != nil {
 	log.Fatal(err)
 }
+defer stmt.Close()
 var name string
 err = stmt.QueryRow(1).Scan(&amp;name)
 if err != nil {

@@ -1,4 +1,8 @@
-# 访问数据库
+---
+title: 访问数据库
+type: tutorial
+order: 4
+---
 
 现在,你已经导入了驱动package,那么你就可以创建一个数据库对象了,即`sql.DB`.
 

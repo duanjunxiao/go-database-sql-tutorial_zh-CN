@@ -1,4 +1,8 @@
-# 错误处理
+---
+title: 错误处理
+type: tutorial
+order: 8
+---
 
 几乎所有`database/sql`操作返回的参数的最后一个均是`error`类型.你应该经常检查这些错误,而不是忽略它们.
 
