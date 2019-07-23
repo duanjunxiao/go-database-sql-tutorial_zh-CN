@@ -28,7 +28,7 @@ module.exports = {
       repoLabel: 'GitHub',
       editLinks: true,
       docsDir: 'docs',
-      docsBranch: 'master',
+      docsBranch: 'v2',
       editLinkText: '帮助我们改善此页面！',
       lastUpdated: '上次更新'
     },
